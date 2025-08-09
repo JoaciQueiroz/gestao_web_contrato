@@ -1,0 +1,17 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+.python-version
+
+# Poetry
+.venv/
+
+# Django
+db.sqlite3
+/media/
+
+# IDEs
+.vscode/
+.idea/
